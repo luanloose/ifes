@@ -1,0 +1,20 @@
+<svg version="1.1"
+ viewBox="-29 -15 160 120"
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <rect x="0" y="5" height="90" width="90" fill="none" stroke="#888" stroke-width="8"/>
+ <circle r="5" cx="45" fill="red">
+  <animate attributeName="cy" dur="3s" values="90; 75; 70; 75; 90" repeatCount="indefinite"/>
+ </circle>
+ <circle r="5" cx="45" cy="90" fill="green">
+  <animate attributeName="cx" dur="5s" values="10; 70; 85; 10" repeatCount="indefinite"/>
+ </circle>
+
+
+ <circle r="5" cx="45" cy="90" fill="blue">
+  <animate attributeName="cy" dur="3s" values="87; 13; 87" repeatCount="indefinite"/>
+  <animate attributeName="cx" dur="5s" values="8; 82; 8" repeatCount="indefinite"/>
+ </circle>
+
+</svg>
+

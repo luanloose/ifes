@@ -1,0 +1,38 @@
+<html lang="pt-BR">
+	<head>
+		<meta charset="UFT-8">
+		<title>Pre Order Organizer</title>
+		<link rel="StyleSheet" type="text/css" href="css/estilo.css"> <!--referencia ao css-->
+	</head>
+	<body>
+
+		<div id="tudo"><!--div que centraliza a pagina-->
+
+
+			<!--logotipo do site-->
+			<header>
+				<img id="logotipo" src="img/logo.jpg" alt="Logotipo"> 
+			</header>
+
+			<!--menu do site-->
+			<nav>
+			<ul>
+				<li id="cor-bt" class="itensMenu"><a href="inicio.html">Inicio</a></li>
+				
+			</ul>
+			</nav>
+			
+			<!--campos de login (email, senha)-->
+			<div id="campos">
+				<form name="conecxao" color="blue" action="VerificarLogin">
+					E-mail: <input class="entradas" type="text" name="email">
+					Senha: <input class="entradas" type="text" name="senha">
+
+					<!--botao "Entrar"-->
+					<input id="botao" type="button" value="Entrar" onClick="conectar();">
+				</form>
+			</div>
+
+		</div>
+	</body>
+</html>

@@ -1,0 +1,234 @@
+﻿
+/*Formatação do corpo o site*/
+body{ 
+	background-image:url("../img/fundo.jpg"); /*fundo das paginas do site*/
+	font-family:Tahoma, Arial, Sans-Serif; /*fonte usada no corpo do site*/
+	font-size:14px; /*tamanho da fonte dos textos do corpo do site*/
+	color:#000000; /*cor da fonte do site*/
+	line-height:20px; /*espaco entre as linhas dos textos do corpo do site*/
+}
+
+/*topo do site*/
+header{
+	background-image:url("../img/montagem.jpg"); /*imagem de fundo da div da logotipo (montagem com varios personagens)*/
+	border:2px solid #FFFFFF; /*borda da div da logotipo*/
+	border-top-right-radius: 15px; /*canto direito superior arredondados*/
+	border-top-left-radius: 15px; /*canto esquerdo superior arredondados*/
+	position:center; /*posicionamento da div no centro*/
+	width:805px;
+	margin-top:0px; /*margem de cima da div igual a zero*/
+	margin-left:0px; /*margem da esquerda da div igual a 40px*/
+	margin-right:0px; /*margem da direita da div igual a zero*/
+	margin-bottom:0px; /*margem de baixo da div igual a zero*/
+	height:180px; /*altura da div igual a 180px*/
+	padding-left: 450px; /*distancia entre a imagem da logotipo e a borda da div no canto esquerdo igual a 430px*/
+	padding-top:50px; /*distancia entre a imagem da logotipo e a borda da div na parte de cima igual a 50px*/
+	box-shadow: 5px 5px 5px #999; /*efeito de sombra na borda da div*/
+}	
+
+/*formatação da logotipo*/
+#logotipo{
+	width:320px; /*largura da imagem da logotipo*/
+	height:123px; /*altura da imagem da logotipo*/
+	border:2px solid #4E4646; /*borda solida ao redor da imagem da logotipo*/
+	border-top-right-radius: 100px; /*cantos arredondados da imagem da logotipo*/
+	border-bottom-left-radius: 100px; /*cantos arredondados da imagem da logotipo*/
+}
+
+
+/*formatação do menu do site*/
+nav{
+	background:#363636; /*cor de fundo da linha do menu*/
+	display:table; /*em formato de tabela (jeito encontrado para fazer com que a linha azul do menu ocupasse a tela de uma ponta a outra*/
+	width:100%; /*largura 100% para ocupar a tela de um canto a outro*/
+	box-shadow: 5px 5px 5px #999; /*efeito de sombra no menu*/
+}
+
+
+/*lista que constroi o menu*/
+li.itensMenu{
+	margin:0; /*margem  igual a 0*/
+	list-style:none; /*retira as marcações de tópicos de lista*/
+	display:inline; /*deixa a lista na horizontal, em linha reta*/
+	font-size:16px; /*tamanho da fonte do menu*/
+	font-family:Verdana, Arial, Tahoma, Sans-Serif; /*estilo da fonte do menu*/
+	color:#FFFFFF; /*cor da fonte do menu*/
+	background:#363636; /*cor de fundo dos itens da lista (que forma o menu)*/
+	float:left; /*flutua a lista para o canto esquerdo da tela*/
+	padding:10px; /*distancia entre um intem de menu e outro*/
+	margin-left:2px; /*margem esquerda do menu igual a 2px*/
+	margin-top:-16px;
+	border-radius: 4px; /*bordas arredondadas dos botões do menu*/
+}
+
+
+/*Formatação especifica da tag a*/
+a{
+	text-decoration: none; /*retira o sublinhado dos itens de menu*/
+	color:#FFFFFF; /*cor da letra*/
+}
+
+
+/*efeito para quando passar o mouse nos itens de menu*/
+li:hover{
+	color:#FFFFFF; /*a cor da letra continua preta*/
+	background:#847B7B; /*o fundo do botão do item de menu muda de cor (cinza mais claro)*/
+	text-decoration:none; /*retira o sublinhado dos itens de menu*/
+	box-shadow: 1px 1px 1px #999; /*efeito de sombra nos botoes do menu*/
+}
+
+
+/*formatação especifica do botao (quando o usuario estiver na pagina referente ao item de menu)*/
+#cor-bt{
+	background:#847B7B; /*muda a cor de fundo do botão para cinza claro*/
+}
+
+
+/*Formatação dos subtitulos das paginas*/
+section{
+	position:center; /*posicionamento da div do subtitulo no centro*/
+	margin-top:50px; /*margem de cima da div do subtitulo*/
+	margin-left:50px; /*margem da esquerda da div do subtitulo*/
+	height:40px; /*altura da div do subtitulo*/
+	width:100%; /*largura da div ocupa 100% do tamanho estipulado para a tela*/
+	font-size:30px; /*tamanho da fonte do subtitulo*/
+	font-weight: bold; /*fonte em negrito*/
+}
+
+
+/*Formatação da tag p*/
+p{
+	text-align:center; /*texto alinhado no centro*/
+}
+
+
+
+/*Formatação da logotipo do rodapé das páginas principal e lojas*/
+footer{
+	width: 228px; /*largura*/
+	height:93px; /*altura*/
+	margin-top:100px; /*margem de cima*/
+}
+
+
+#rodape{
+	width: 228px; /*largura*/
+	height:93px; /*altura*/
+	margin-top:300px; /*margem de cima*/
+	margin-left:50px; /*margem da esquerda*/
+	border:2px solid #5F9EA0; /*borda solida ao redor da imagem da logotipo*/
+	border-top-right-radius:50px;
+	border-bottom-left-radius:50px;
+}
+
+#rodapePerfil{
+	width: 100px; /*largura*/
+	height:50px; /*altura*/
+	margin-top:200px; /*margem de cima*/
+	margin-left:50px; /*margem da esquerda*/
+	border:2px solid #5F9EA0; /*borda solida ao redor da imagem da logotipo*/
+	border-top-right-radius:50px;
+	border-bottom-left-radius:50px;
+}
+
+
+
+/*Formatação da div onde estão contidos os campos de formulario*/
+#campos{
+	position:center; /*posicionamento central*/
+	width:80px; /*largura da div*/
+	height:80px; /*altura da div*/
+	margin-left:503px; /*margem esquerda da div*/
+	margin-top:30px; /*margem de cima da div*/
+}
+
+
+
+
+
+/*Classe que formata algumas tags input do site*/
+.entradas{
+	width:280px; /*largura*/
+	height:25px; /*altura*/
+	border-radius: 7px; /*borda arredondada*/
+}
+
+
+/*Formatação da tabela do formulario da pagina fale conosco*/
+table{
+	width:400px; /*largura*/
+	font-size:16px; /*tamanho da fonte*/
+	text-align:center; /*texto alinhado no centro*/
+	border-spacing:2px; /*espaçamento da borda da tabela*/
+	border-top:2px solid #6696b3; /*borda de cima da tabela*/
+	border-bottom:2px solid #6696b3; /*borda de baixo da tabela*/
+	margin-left: 440px; /*margem da esquerda da tabela*/
+	margin-top: 30px; /*margem de cima da tabela*/
+}
+
+
+
+th{
+	background-color: #ccccff;
+	color:black;
+	font-style:italic;
+	padding:10px;
+}
+
+
+/*Formatação das bordas da tabela do formulario da pagina fale conosco*/
+td{
+	border-top:2px solid #cfcfcf;
+	border-left:2px solid #cfcfcf;
+	border-right:2px solid #696969;
+	border-bottom:2px solid #696969;
+	padding:10px;
+}
+
+
+/*Formatação especifica do formulario da pagina fale conosco*/
+#MeuForm{
+	background:#5F9EA0; /*fundo*/
+	font:12px arial, verdana, helvetica, sans-serif; /*estilo da fonte*/
+}
+
+
+/*Formatação dos botões dos formulários*/
+#botao{
+	background-image: linear-gradient(to bottom, white, #5F9EA0); /*fundo do botão com efeito degradê*/
+	width:90px; /*largura*/
+	height:40px; /*altura*/
+	font-size:16px; /*tamanho da fonte*/
+	margin-top:20px; /*margem de cima*/
+	margin-left:10px; /*margem da esquerda*/
+	margin-bottom:30px; /*margem de baixo*/
+	border-radius: 7px; /*borda arredondada*/
+}
+
+/*Formatação da div que contém o formulário que salva as informações no calendário*/
+#cadastroPreVendas{
+	position:center;
+	width:200px;
+	height:120px;
+	margin-top:60px;
+	margin-right:570px;
+	float:right; /*flutua a div na tela à direita*/
+}
+
+
+
+/*Formatação especifica do texto "Cadastre suas pré-vendas:" na pagina Minhas Pre-Vendas*/
+#subtituloCalendario{
+	font-size:15px; /*tamanho da fonte*/
+	font-weight: bold; /*negrito*/
+}
+
+
+/*Formatação da div que contém o corpo inteiro da página (centralização da página)*/
+#tudo{
+	position:center; /*posicionamento central*/
+	margin:0 auto; /*margem automática*/
+	width:1260px; /*largura*/
+}
+
+

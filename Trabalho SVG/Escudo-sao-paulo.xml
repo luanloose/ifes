@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="no"?>
+
+<!DOCTYPE svg PUBLIC "-//w3c//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+<style type="text/css">
+<![CDATA[
+@font-face {
+font-family: 'Ignis-et-Glacies-Sharp-Bold';
+src:url('Ignis-et-Glacies-Sharp-Bold.ttf.woff') format('woff'),
+url('Ignis-et-Glacies-Sharp-Bold.ttf.svg#Ignis-et-Glacies-Sharp-Bold') format('svg'),
+url('Ignis-et-Glacies-Sharp-Bold.ttf.eot'),
+url('Ignis-et-Glacies-Sharp-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+font-weight: normal;
+font-style: normal;
+}
+]]>
+
+</style>
+
+<!--linha de cima-->
+ 
+<line x1="0" y1="0" x2="625" y2="0" style="stroke:rgb(0,0,0);stroke-width:10"/>
+
+<!--linha da esquerda-->
+
+<line x1="0" y1="0" x2="0" y2="250" style="stroke:rgb(0,0,0);stroke-width:10"/>
+
+<!--linha da direita-->
+
+<line x1="625" y1="0" x2="625" y2="250" style="stroke:rgb(0,0,0);stroke-width:10"/>
+
+<!--linha diagonal esquerda-->
+
+<line x1="0" y1="250" x2="312" y2="599" style="stroke:rgb(0,0,0);stroke-width:6"/>
+
+<!--linha diagonal direita-->
+
+<line x1="625" y1="250" x2="312" y2="603" style="stroke:rgb(0,0,0);stroke-width:6"/>
+
+<rect x="38" y="40" width="550" height="170">
+</rect>
+
+<!--poligono esquerda-->
+<polygon points="40,245 270,500 270,245"
+  style="fill:red;stroke:red;stroke-width:1"/>
+
+<!--poligono direita-->
+<polygon points="580,245 350,500 350,245"
+  style="fill:black;stroke:black;stroke-width:1"/>
+
+<!--Letras-->
+ <text x="40" y="190" style="fill:white; font-family: 'Ignis-et-Glacies-Sharp-Bold'; font-size: 200px;">SPFC</text> 
+</svg>

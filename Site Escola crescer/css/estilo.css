@@ -1,0 +1,117 @@
+body {
+	background-image: url("../img/fundo.jpg");
+	font-family: verdana, Helvetica, sans-serif; 
+	font-size: 12px; 
+	margin: 10px;
+	text-align:left;
+	text-indent: 10px;
+	letter-spacing: 3px;
+	border-top: 2px;
+	border-bottom: 2px;
+	border-left: 2px;
+	border-right: 2px;
+	
+}
+
+
+table {
+
+width: 400px;
+font-size: 16px;
+text-align: center;
+border-spacing: 2px;
+border-top: 2px solid ##70DB93;
+border-bottom: 2px solid ##70DB93;
+
+
+}
+
+th {
+
+background-color: #FFFFFF;
+color: black;
+font-style: italic;
+padding: 10px;
+
+}
+
+td {
+	border-top: 2px solid #3299CC;
+	border-bottom: 2px solid #3299CC;
+	border-left: 2px solid #3299CC;
+	border-right: 2px solid #3299CC;
+	padding: 10px;
+}
+a {
+	text-decoration: none;
+	color: red;
+}
+a:hover {
+	text-decoration: underline;
+	color: yellow;
+}
+a:link{
+	text-decoration: underline;
+	color: #6B238E;
+
+}
+
+#titulo {
+	border: 2px dotted red;
+}
+
+li.lista1 {
+	font-weight: bold;
+}
+li.lista2 { 
+	font-style: italic;
+}
+
+div.titulo1 {
+	position: relative;
+	left: 100px;
+	top: 20px;
+	color: #6666ff;
+}
+div.titulo2 {
+	position: relative;
+	left: 50px;
+}
+div.titulo3 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	color: #6666ff;
+	z-index: 2;}
+div.titulo4 {
+	position: absolute;
+	left: 3px;
+	top: 2px;
+	z-index: 1;  }
+
+#MeuForm {
+	background:#FFFF00; 
+	font:12px arial, verdana, helvetica, sans-serif; 
+	border-top:8px solid #cfcfcf;
+	border-left:8px solid #cfcfcf;
+	border-right:8px solid #696969; 
+	border-bottom:8px solid #696969; 
+	border-collapse:collapse; 
+	color:blue; 
+ }
+#MeuForm input {
+	background:#70DBDB; 
+	border:1px dashed blue;
+
+} 
+#MeuForm textarea {
+	background:#70DBDB; 
+	border:1px dashed blue; 
+
+}
+#MeuForm input.botao {
+	background:#70DBDB; 
+	color:#70DBDB; 
+	border:2px solid #ffffff;
+
+}

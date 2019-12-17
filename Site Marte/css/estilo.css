@@ -1,0 +1,283 @@
+@media screen and (min-width: 801px) { 
+
+	body{ 
+		background-image:url("../img/fundo.gif");
+		background-attachment:fixed;
+		font-family:Tahoma, Arial, Sans-Serif;
+		font-size:0.875em;
+		line-height:1.250em;
+	}
+
+
+
+	.logo{
+		margin-top:45px;
+		margin-left:45px;
+		margin-bottom:50px;
+		height:190px;
+	}
+
+
+
+	#logo{
+		width:8.438em;
+		height:12.313em;
+	}
+
+
+
+	.menu{
+		list-style:none;
+		display:inline-block;
+		height:8.563em;
+		width:8.188em;
+		position:relative;
+		padding:0px;
+		bottom:200px;
+		left:300px;
+		margin-right:20px;
+	}
+
+
+	#tecnologiaMenu{
+		background-image:url("../img/fundo-botao.png");
+	}
+
+
+
+	li:hover{
+		background-image:url("../img/fundo-botao.png");
+	}
+
+
+
+	#imagemTecnologia{
+		position:center;
+		width:18.875em;
+		height:2.375em;
+		margin-top:50px;
+		margin-left:30px;
+		margin-right:0px;
+		margin-bottom:30px;
+	}
+
+	
+
+	#primeiroParagrafo{
+		position:center;
+		font-family:Tahoma, Arial, Sans-Serif;
+		font-size:0.875em;
+		line-height:1.250em;
+		margin-top:0px;
+		margin-left:50px;
+		margin-right:50px;
+		margin-bottom:35px;
+	}
+
+
+	.titulos{
+		position:center;
+		font-size:1.125em;
+		font-weight: bold;
+		color:#FFFFFF;
+		margin-left:50px;
+		margin-top:50px;
+	}
+
+
+
+	p{
+		font-family:Tahoma, Arial, Sans-Serif;
+		color:#FFFFFF;
+		line-height:1.250em;
+	}
+
+
+	.subtitulos{
+		font-family:Tahoma, Arial, Sans-Serif;
+		font-weight:bold;
+		color:#00FFFF;
+	}
+
+
+
+	.paragrafos{
+		position:center;
+		font-family:Tahoma, Arial, Sans-Serif;
+		font-size:0.875em;
+		line-height:1.250em;
+		margin-top:40px;
+		margin-left:50px;
+		margin-right:50px;
+	}
+
+
+
+	#ultimoParagrafo{
+		position:center;
+		font-family:Tahoma, Arial, Sans-Serif;
+		font-size:0.875em;
+		line-height:1.250em;
+		margin-top:30px;
+		margin-left:50px;
+		margin-right:30px;
+		width:700px;
+	}
+
+
+	.imagens{
+		width:150px;
+		height:226px;
+		float:left;
+		margin-right:20px;
+		border:2px solid white;
+	}
+
+
+
+	#brasil{
+		width:9.313em;
+		height:2.750em;
+		padding-left:50px;
+		padding-top:62px;
+		padding-bottom:30px;
+	}
+
+
+	#aeb{
+		width:8.688em;
+		height:4.875em;
+		padding-left:50px;
+		padding-bottom:30px;
+	}
+
+
+	#fab{
+		width:6.938em;
+		height:4.875em;
+		padding-left:50px;
+		padding-bottom:30px;
+	}
+
+
+
+	#paginaCentro{
+		position:center;
+		width:1260px;
+		margin:auto;
+		
+	}
+}
+
+@media screen and (max-width: 800px) {
+
+	body{
+		background-image:url("../img/fundo.gif");
+		font-family:Tahoma, Arial, Sans-Serif;
+		font-size:1.0em;
+		line-height:1.250em;
+		background-size:100%;
+		background-attachment:fixed;
+		
+	}
+
+	
+	#logo{
+		position:center;
+		margin:auto;
+		width:8.438em;
+		height:12.313em;
+	}
+
+
+	.menu{
+		position:relative;
+		list-style:none;
+		display:inline-block;
+		margin:auto;
+		padding:0em;
+		bottom:12.700em;
+		left:18.550em;
+		height:8.563em;
+		width:8.188em;	
+	}
+
+	#tecnologiaMenu{
+		background-image:url("../img/fundo-botao.png");
+	}
+
+
+
+	li:active{
+		background-image:url("../img/fundo-botao.png");
+	}
+
+
+
+	#imagemTecnologia{
+		position:relative;
+		margin:auto;
+		margin-top:3em;
+		margin-bottom:1.875em;
+		width:18.875em;
+		height:2.375em;
+	}
+
+
+
+	.titulos{
+		font-size:1.125em;
+		color:#FFFFFF;
+		font-weight: bold;
+	}
+
+	.subtitulos{
+		color:#00FFFF;
+		font-weight:bold;
+		font-size:1.0em;
+	}
+
+
+	p{
+		font-family:Tahoma, Arial, Sans-Serif;
+		font-size:1.0em;
+		color:#FFFFFF;
+		line-height:1.250em;
+	}
+
+
+
+
+	.fotos{
+		position: center;
+		margin:auto;
+		width:9.375em;
+		height:14.125em;
+		border:0.125em solid white;
+	}
+
+	#brasil{
+		position:center;
+		margin:auto;
+		top:2.700em;
+		width:9.313em;
+		height:2.750em;
+	}
+
+
+
+
+	#aeb{
+		position:center;
+		margin:auto;
+		width:8.688em;
+		height:4.875em;
+		
+	}
+
+	#fab{
+		position:center;
+		margin:auto;
+		width:6.938em;
+		height:4.875em;
+	}

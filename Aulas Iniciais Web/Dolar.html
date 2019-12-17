@@ -1,0 +1,39 @@
+<html lang="pt-BR">
+
+	<head>
+
+		<meta charset="UFT-8">
+
+		<title>JavaScript</title>
+
+	</head>
+
+	<body>
+
+		<script>
+
+			function somar(){
+        		var s1 = parseFloat(document.getElementById("dolar").value);
+        		var s2 = parseFloat(document.getElementById("coracao").value);
+			var s3 = s1*s2;
+ 
+			document.getElementById("resultado").value = s3;	
+    		}	
+
+		</script>
+
+		<form name="calc" >
+
+		Valor em Dólar : <input type="text" id="dolar">
+
+		Cotação: <input type="text" id="cotacao">
+
+		Valor em Reais: <input type="text" id="resultado" readonly></ br>
+
+		<input type="button" value="Somar" onClick="somar();">
+
+		</form>
+
+	</body>
+
+</html>

@@ -1,0 +1,32 @@
+<html>
+	<script>
+		function inserir_na_lista(){
+			nome = frm.nome.value;
+			pos = frm.lista.options.length++;
+			frm.lista.options[pos].text= nome;
+			frm.nome.value= '';
+			frm.nome.focus();		
+		}
+		
+		function remover(){
+			var selecao;
+			
+			selecao = frm.lista.options.selectedIndex;
+			if (selecao>=0){
+				frm.lista.options[selecao] = null;
+			} else{
+				alert('É necessario selecionar o elemento!');
+		}
+	
+	</script>
+	<body>
+		<form name="frm">
+			Nome: <br>
+			<input type="text" name="nome"> <br>
+			<input type="button" onclick="inserir_na_lista()" value="OK"> <br>
+			Lista: <br>
+			<select name="lista" multiple style="{width: 150px;}">
+			</select>
+		</form>
+	</body>
+</html>

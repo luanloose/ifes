@@ -1,0 +1,19 @@
+O que são frames?
+
+Frames são as divisões internas dentro de uma mesma janela do browser,
+onde você consegue, por exemplo, rolar todo o conteúdo de uma página tendo o menu fixo ao lado. 
+
+
+O que são Iframes?
+
+É um código HTML que faz com que uma determinada página seja aberta dentro de outra.
+Trata-se de um código HTML, portanto só é possível utilizar um Iframe em páginas que aceitem HTML.
+
+
+
+O que é div?
+
+define um elemento do tipo bloco. Esta tag pode dividir qualquer trecho de seu código. 
+Você pode criar um bloco, uma divisão, e dentro deste bloco ter uma imagem, links e textos.
+
+

@@ -1,0 +1,56 @@
+﻿<html lang="pt-BR">
+	<head>
+		<meta charset="UFT-8">
+		<title>Pre Order Organizer</title>
+		<link rel="StyleSheet" type="text/css" href="css/estilo.css"><!--referencia ao css-->
+	</head>
+	<body>
+
+			<div id="tudo"><!--centraliza a pagina-->
+
+				<!--logotipo do site-->
+				<header>
+					<img id="logotipo" src="img/logo.jpg" alt="Logotipo">
+				</header>
+
+					
+				<!--menu do site-->
+				<nav>
+				<ul>
+				
+				<li  class="itensMenu"><a href="home.html">Home</a></li><!--botao com cor diferente (id="cor-bt")-->
+				<li  class="itensMenu"><a href="cadastro.html">ADD Usuario</a></li>
+				<li  class="itensMenu"><a href="addproduto.html">ADD Produto</a></li>
+				<li id="cor-bt" class="itensMenu"><a href="listarproduto.html">Listar Produtos</a></li>
+				<li class="itensMenu"><a href="inicio.html">Sair</a></li>
+			</ul>
+				</nav>
+			
+
+				<!--subtitulo "Listar Produtos"-->
+				<section>
+					<spam>Listar Produtos</spam>
+				</section>
+
+					<!--Botões de cadastro e edição de pre-vendas na página de consulta das pre-vendas.-->
+					<form name="preVendas" color="blue">
+					
+
+						<a href="edicao_produto.html">
+							<input id="botao" type="button" value="Editar" onClick="editar();"><!--botão "Editar"-->
+						</a> 
+
+						<input id="botao" type="button" value="Excluir" onClick="excluir();"> <!--botão "Excluir"-->
+
+						<input id="botao" type="button" value="GerarQr" onClick="gerarQr();"> <!--botão "Excluir"-->
+					</form>
+				</div>
+			
+				<footer>
+					<img id="rodape" src="img/logo.jpg" alt="Logotipo">
+				</footer>
+			
+		</div>
+
+	</body>
+</html>

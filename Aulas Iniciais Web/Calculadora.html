@@ -1,0 +1,33 @@
+<html lang="pt-BR">
+	<head>
+	<meta charset="UFT-8">
+	<title>JavaScript</title>
+	</head>
+	<body>
+		
+		<script>
+    			function somar(){
+        			var s1 = parseInt(document.getElementById("valor1").value);
+        			var s2 = parseInt(document.getElementById("valor2").value);
+				var s3 = s1+s2;
+ 
+				document.getElementById("resultado").value = s3;
+
+			
+    		}		
+
+		</script>
+
+
+
+		<form name="calc" color="blue">
+			Primeiro valor: <input type="text" id="valor1">
+			Segundo valor: <input type="text" id="valor2">
+			Resultado: <input type="text" id="resultado" readonly></ br>
+			<input type="button" value="Somar" onClick="somar();">
+			<input type="button" value="subtrair" onClick="subtrair();">
+			<input type="button" value="divisao" onClick="divisao();">
+			<input type="button" value="multiplica" onClick="multiplica();">
+		</form>
+	</body>
+</html>

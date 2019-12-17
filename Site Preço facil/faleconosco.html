@@ -1,0 +1,130 @@
+﻿<html lang="pt-BR">
+	<head>
+		<meta charset="UFT-8">
+		<title>Pre Order Organizer</title>
+		<link rel="StyleSheet" type="text/css" href="css/estilo.css"><!--referencia ao css-->
+	</head>
+	<body>
+
+		<div id="tudo"><!--centraliza a página-->
+
+			<!--logotipo do site-->
+			<header>
+				<img id="logotipo" src="img/logo.jpg" alt="Logotipo">
+			</header>
+
+					
+			<!--menu do site-->
+			<nav>
+			<ul>
+				<li class="itensMenu"><a href="principal.html">Home</a></li>
+				<li class="itensMenu"><a href="calendario.html">Calendario</a></li>
+				<li class="itensMenu"><a href="perfil.html">Perfil</a></li>
+				<li class="itensMenu"><a href="lojas.html">Lojas</a></li>
+				<li id="cor-bt" class="itensMenu"><a href="faleconosco.html">Fale Conosco</a></li> <!--botao com cor diferente (id="cor-bt")-->
+				<li class="itensMenu"><a href="inicio.html">Sair</a></li>
+			</ul>
+			</nav>			
+
+			<!--subtitulo "Fale Conosco"-->
+			<section>
+				<spam id="subtitulo">Fale Conosco</spam>
+			</section>
+
+
+			<!--formulario do fale conosco (nome, email, sexo, tipo, comentarios, opcoes de receber sms ou email)-->
+			<form action="html_form_action.html" method="get">	
+
+				<table id="MeuForm"> <!--formulario feito em forma de tabela-->
+
+					<tr> <!--primeira linha da tabela-->
+
+						<td>Nome Completo</td> <!--primeira coluna da primeira linha-->
+
+						<!--segunda coluna da primeira linha-->
+						<td><input class="entradas" type="text" size="40" name="nome"></td>
+
+					</tr>
+
+					<tr> <!--segunda linha da tabela-->
+
+						<td>E-mail</td> <!--primeira coluna da segunda linha-->
+
+						<!--segunda coluna da segunda linha-->
+						<td><input class="entradas" type="text" size="40" name="email"></td>
+
+					</tr>
+
+					<tr> <!--terceira linha da tabela-->
+
+						<td>Sexo</td> <!--primeira coluna da terceira linha-->
+
+						<!--segunda coluna da terceira linha-->
+						<td>Masculino: <input type="radio" name="sexo" value="M"><br>Feminino: <input type="radio" name="sexo" value="F"></td>
+
+					</tr>
+
+					<tr> <!--quarta linha da tabela-->
+					
+						<td><Tipo</td> <!--primeira coluna da quarta linha-->
+
+						<td> <!--segunda coluna da quarta linha-->
+
+							<select name="fonction">
+
+								<!--opcoes: Reclamacao, sugestao, duvidas, informacao-->
+								<option value="reclamacao">Reclamacao</option>
+
+								<option value="sugestao">Sugestao</option>
+
+								<option value="duvidas">Duvidas</option>
+
+								<option value="informacao">Informacao</option>
+				
+							</select>
+
+						</td>
+
+					</tr>
+
+					<tr> <!--quinta linha da tabela-->
+
+						<td>Comentarios</td> <!--primeira coluna da quinta linha-->
+
+						<!--segunda coluna da quinta linha-->
+						<td><textarea type="text" rows="5" cols="30" name="comentario"></textarea></td>
+
+					</tr>
+
+					<tr> <!--sexta linha da tabela-->
+
+						<td colspan="2"><!--coluna única com o tamanho de duas(colpan="2")-->
+
+							<!--opcoes checkbox de receber avisos por sms ou email-->
+							<input type="checkbox" name="email">Gostaria de receber avisos por e-mail<br>
+
+							<input type="checkbox" name="sms">Gostaria de receber avisos por sms
+
+						</td>
+
+					</tr>
+
+					<tr> <!--setima linha da tabela-->
+
+						<td colspan="2"><!--coluna unica com tamanho de duas (colspan="2")-->
+
+							<!--botao "Enviar"-->
+							<input id="botao" type="submit" value="Enviar">
+						</td>
+
+					</tr>
+
+				</table>				
+			</form>
+
+			<footer>
+				<img id="rodape" src="img/logo.jpg" alt="Logotipo">
+			</footer>
+		</div>
+	</body>
+</html>
